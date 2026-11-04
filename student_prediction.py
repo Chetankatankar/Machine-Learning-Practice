@@ -94,6 +94,6 @@ print("Model trained successfully!")
 # 5. Make Your First Prediction
 # Now let's predict marks for a student who studies for 9 hours.
 
-prediction = model.predict([[4]])
+prediction = model.predict([[8]])
 
 print("Predicted Marks:", prediction[0])
